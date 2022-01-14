@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+/* el google font y el fondo de la pagina */
+body {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #fce3fb;
+    font-size: 18px; 
+}
+
+/*el block main*/
+.conteiner {
+
+
+}
+
+/*el block primero block*/
+header {
+
+   background-color: #FFBBFC;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   
+}
+
+/* el logo de las tartas*/
+.Imagen-2 {
+
+  margin-left: 20px ;
+
+}
+
+/*el imagen de las tartas el texto*/
+.Imagen-3 {
+
+    padding-left: 440px;
+ 
+}
+
+/* anadir flex box, centrar el menu, quitar puntos del menu */
+.nav{
+
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+/*los margines, color fondo de los bottones */
+.nav > li {
+    
+    background-color:#EA49F8;
+    width: 100px;
+    height: 28px;
+    margin-left: 40px;
+     
+}
+
+/* borrar linia del navigador y los textos*/
+.nav > li > a {
+ 
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    color:rgb(240, 182, 182);
+
+}
+
+/* la sombra de los bottones*/
+.shadow1 {
+
+    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 12px 15px 15px 15px rgba(14,7,3,0); 
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 12px 15px 15px 15px rgba(14,7,3,0);
+
+}
+
+
+.Imagen-6{
+    
+    margin-left: 100px ;
+    
+        -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 12px 15px 15px 15px rgba(14,7,3,0); 
+        box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 12px 15px 15px 15px rgba(14,7,3,0);
+    
+    }
+
+
+/*el formulario*/
+
+h3 {
+	color:#B1A3A3;
+	text-align: center;
+	}
+
+
+/* el formulario caja */
+
+.container{
+	width: 550px;
+	margin: 500px;
+	background-color: #7D0880;
+	overflow: hidden;
+}
+
+
+/* para quitar puntos de ul */
+ul li{
+	list-style: none;
+}
+
+
+/* movimiento de la forma, overflow ayda a cerrar bien la forma */
+form {
+	padding: 20px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+/* Todos los labels esta equlibrados */
+
+label {
+	margin: 5px 0px;
+	clear: both;
+	display: block;
+	
+}
+ 
+/* los campos del input */
+/* mas ajustes que todos son iguales */
+
+input {
+
+	padding: 5px;
+	border: solid 1px #afb0b4;
+
+	width: -moz-available; /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+
+
+}
+
+/* el posicion del boton */
+.boton{
+	float: right;
+	margin-top: 15px;
+	margin-right: 15px;
+	
+}
+
+/* los estilos boton enviar de submit */
+/* Ajustes para hacer el boton mas bonito */
+
+input[type="submit"] {
+	-webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    border-radius: 70px;
+	
+	padding: 10px 20px;
+	text-transform: uppercase;
+	cursor: pointer; 
+	background-color: #C4C4C4;
+
+}
+
+
+/* el block principas del footer  */
+footer {
+
+    background-color: #FFBBFC;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+.footer1 {
+
+    margin-left: 1300px;
+
+}
+
+.copy {
+
+margin-left: 20px;
+
+-webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 12px 15px 15px 15px rgba(14,7,3,0); 
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 12px 15px 15px 15px rgba(14,7,3,0);
+}
+
+
+/*mediaqueries*/
+
+
+
+
+/*Mediaqueries hay que corregir!!!*/
+
+@media (min-width: 576px) {
+	
+        
+
+    /* Medium devices (tablets, 768px and up)*/
+    @media (min-width: 768px) {
+        .logo{
+            width: 50%;
+        }
+        nav{
+            width: 86%;
+            margin: auto;
+        }
+        .fotos li{
+            width: 47%;
+            padding-left: 1rem;
+        }
+        .fotos ul{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .info{
+            padding-top: 1rem;
+        }
+        .info ul{
+            display: flex;
+            justify-content: space-around;
+        }
+        .info li{
+            width: 24%;
+            background-size: 10%;
+            background-position: 1% 4%;
+        }
+        .info p{
+            padding-left: 18%;
+        }
+        
+     }
+    
+    
+    /* Large devices (desktops, 992px and up)*/
+    @media (min-width: 992px) {
+        nav{
+            width: 67%;
+    
+        }
+        .info li{
+            width: 30%;
+    
+        } 
+        
+     }
+    
+    /* Extra large devices (large desktops, 1200px and up)*/
+    /*@media (min-width: 1200px)*/ 

@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+/* el google font y el fondo de la pagina */
+body {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #fce3fb;
+    font-size: 14px;
+}
+
+/*el block main*/
+.conteiner {
+
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+/*el block primero block*/
+header {
+
+   background-color: #FFBBFC;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   
+}
+
+/* el logo de las tartas*/
+.Imagen-2 {
+
+  margin-left: 20px;
+  
+}
+
+/*el imagen de las tartas el texto*/
+.Imagen-3 {
+
+  padding-left: 600px;
+  width: 60%;
+
+}
+
+/* anadir flex box, centrar el menu, quitar puntos del menu */
+.nav{
+
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+/*los margines, color fondo de los bottones */
+.nav > li {
+    
+    background-color:#EA49F8;
+    width: 100px;
+    height: 28px;
+    margin-left: 40px;
+     
+}
+
+/* borrar linia del navigador y los textos*/
+.nav > li > a {
+ 
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    color:rgb(240, 182, 182);
+
+}
+
+/* la sombra de los bottones*/
+.shadow1 {
+
+    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 12px 15px 15px 15px rgba(14,7,3,0); 
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 12px 15px 15px 15px rgba(14,7,3,0);
+
+}
+
+.Imagen-6{
+    
+margin-left: 100px ;
+
+    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 12px 15px 15px 15px rgba(14,7,3,0); 
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 12px 15px 15px 15px rgba(14,7,3,0);
+
+}
+
+/* el block principas  */
+footer {
+
+    background-color: #FFBBFC;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+
+.footer1 {
+
+    margin-left: 1300px;
+
+}
+
+.copy {
+
+margin-left: 20px;
+
+-webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 12px 15px 15px 15px rgba(14,7,3,0); 
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 12px 15px 15px 15px rgba(14,7,3,0);
+
+}
+
+/* @media  screen () */
+/* las reglas */
+/* 1600 x 1200 desctop*/
+/* 1366 x 768 partatil*/
+/* 1024 x 768 el tablet*/
+/* 800 x 480 smartfon1*/
+/* 480 x 329 smartfon2*/
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+header {
+
+    background-color:rgb(150, 66, 129);
+    
+}
+
+body {
+
+    background-color:rgb(150, 66, 129);
+
+}
+
+.conteiner {
+
+    background-color:rgb(150, 66, 129);
+
+}
+
+footer {
+
+    background-color:rgb(150, 66, 129);
+
+}
+
+.Imagen-2 {
+
+    margin-left: 140px;
+    margin-top: 10px;
+    
+  }
+
+  .Imagen-5 { 
+
+    margin-left: 95px;
+    margin-top: 20px;
+
+  }
+
+
+  .Imagen-6 {
+
+    margin-top: 40px;
+
+  }
+
+
+  .footer1{
+
+    margin-left: 330px;
+
+  }
+  
+
+}
+
+
+
+
+
+
+
